@@ -1,9 +1,14 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     color: #666;
 }
-
+p{
+    color:black;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Header/logo tiêu đề */
 
@@ -35,7 +40,7 @@ section {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 19px 0 124px;
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
@@ -43,15 +48,27 @@ ul {
 
 li {
     float: left;
+    
 }
-
+a{
+    color:#2CBE53; 
+    
+}
+.main h1{
+    color:#2CBE53; 
+    font-weight: 900;
+    margin:10 0 0 500;
+    text-transform: uppercase;;
+}
 li a,
 .dropbtn {
     display: inline-block;
-    color: #666;
+    color:#2CBE53;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
+
 }
 
 li a:hover:not(.active),
@@ -99,3 +116,40 @@ li.dropdown {
 .hideable-section:first-of-type {
     display: block;
 }
+.main{
+    width: 86%;
+    margin: auto;
+    margin-top: -19px;
+    height: auto;
+    clear: both;
+}
+div.gallery {
+    margin: 20 29 0 0;
+    border: 1px solid #ccc;
+    float: left;
+    width: 287px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #125894;
+    font-weight: 900;
+  }
+  div.desc p{
+      color: red;
+  }
+  .introduce{
+    width: 97%;
+    height: 393px;
+    margin-top: 50px;
+  }
