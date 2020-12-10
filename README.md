@@ -6,6 +6,9 @@
 ![Giao diện](img/gd4.png)
 ![Giao diện](img/gd5.png)
 ![Giao diện](img/gd6.png)
+
+<div style="page-break-after: always;"></div>
+
 ## **Danh sách các menu-Item**
 1. Home
 2. Laptop(dropdown)
@@ -47,5 +50,7 @@
 ![Giao diện](img/gd2.png)
 ## **Top các sản phẩm bán chạy của website**
 ![Giao diện](img/gd3.png)
+<div style="page-break-after: always;"></div>
+
 ## ** Footer chứa các nội dung ,thông tin chung cửa hàng
 ![Giao diện](img/gd6.png)
